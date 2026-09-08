@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# logs and data
+*.log
+*.out
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.psd
+*.ai
+*.eps
+*.svg
+*.ico
+*.pdf
+*.txt
+*.json
+*.csv
+*.xls
+*.xlsx
+*.h5
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.pickle
+*.db
+*.sqlite
+
+# Results (optional, keep if needed)
+# results.json
+# result_*.png
+
+# Report
+fill_report.py (optional)
+
+# Large files
+*.zip
+*.tar
+*.gz
+*.rar
