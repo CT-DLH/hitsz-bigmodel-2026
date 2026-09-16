@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
+.Python
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
@@ -14,6 +15,9 @@ venv/
 env/
 .venv/
 .env/
+ENV/
+env.bak/
+venv.bak/
 
 # 数据与模型
 *.pkl
@@ -24,6 +28,7 @@ env/
 *.onnx
 *.h5
 *.hdf5
+*.ckpt
 data/
 datasets/
 *.npz
@@ -47,6 +52,7 @@ lab*/best_config.json
 .vscode/
 .idea/
 *.log
+*.out
 Thumbs.db
 .DS_Store
 
@@ -60,3 +66,9 @@ conda-meta/
 
 # 大模型工作目录
 .workbuddy/memory/
+
+# 大文件
+*.zip
+*.tar
+*.gz
+*.rar
