@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 虚拟环境
+venv/
+env/
+.venv/
+.env/
+
+# 数据与模型
+*.pkl
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+data/
+datasets/
+*.npz
+*.npy
+
+# 实验产出（体积大、可重现）
+lab*/results_*.json
+lab*/result_*.png
+lab*/*_log.txt
+lab*/_*.py
+lab*/_*.txt
+lab*/best_config.json
+
+# 报告产出（最终 docx 可留也可忽，建议留）
+# lab*/作业*实验报告*.docx
+
+# 临时/编辑器
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.log
+Thumbs.db
+.DS_Store
+
+# OS / 环境
+*.bat
+*.cmd
+conda-meta/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 大模型工作目录
+.workbuddy/memory/
